@@ -1,38 +1,64 @@
+/*@font-face {*/
+/*  font-family: 'Inter';*/
+/*  font-style: normal;*/
+/*  */
+/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .App {
-  text-align: center;
+    background: mediumslateblue linear-gradient(rgba(123, 104, 238, 0.1), #9084d9);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    width: 200px;
+    height: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.group-logo-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.short-quote {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: xxx-large;
+    text-align: center;
+    font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.short-desc {
+    text-align: center;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 400;
+    padding-bottom: 75px;
+}
+
+.copyright-container {
+    font-size: x-small;
+    text-align: center;
+}
+
+.copyright {
+    padding-bottom: 10px;
+    margin-bottom: 0;
 }
