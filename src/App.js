@@ -34,13 +34,13 @@ function App() {
 			</Navbar>
 
 			<div className="group-logo-wrapper">
-				<img src={logo} alt="Logo" className="logo"/>
-				<img src={people} alt="Group Photo" className="group-pic1"/>
+				<img src={logo} className="logo"/>
+				<img src={people} className="group-pic1"/>
 			</div>
 			<br />
 			<div className="short-quote">
 				<p>
-					Learn like you clap your hands like you mean it like a pro.
+					Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that are helpful in all domains. <span><em> - Bill Gates </em></span>
 				</p>
 			</div>
 			<div className="short-desc">
