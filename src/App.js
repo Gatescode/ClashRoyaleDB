@@ -40,7 +40,7 @@ function App() {
 			<br />
 			<div className="short-quote">
 				<p>
-					Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that are helpful in all domains. <span><em> - Bill Gates </em></span>
+					Learning to write programsur mind, and helps you think better, creates a way of thinking about things that are helpful in all domains. <span><em> - Bill Gates </em></span>
 				</p>
 			</div>
 			<div className="short-desc">
